@@ -1,2 +1,20 @@
-# rei-location-scrapper
-Get all REI stores by parsing rei.com
+# Description
+Get all REI locations (latitude, longitude) by parsing rei.com
+
+Geojson data files:
+- [human-readable](rei_formmatted.geojson])
+- [rei.geojson](rei.geojson)
+
+# How to run (python3 required)
+
+```
+git clone https://github.com/vietnugent/rei-location-scrapper.git
+cd rei-location-scdrapper
+virtualenv venv
+source ./venv/bin/activate
+pip3 install -r requirements.txt
+python3 rei.py
+```
+
+# License
+Apache 2
