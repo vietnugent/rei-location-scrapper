@@ -2,8 +2,8 @@
 Get all REI locations (latitude, longitude) by parsing rei.com
 
 Geojson data files:
-- Human-readable [rei_formatted.geojson](rei_formmatted.geojson)
-- Raw[rei.geojson](rei.geojson)
+- Human-readable [rei_formatted.geojson](rei_formatted.geojson)
+- Raw [rei.geojson](rei.geojson)
 
 # How to run (python3 required)
 
