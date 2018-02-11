@@ -31,8 +31,9 @@ def fetch_html():
 
 def _make_geojson_feature(**kwargs):
     return {
-        "goemetry": {
-            "type": "POINT",
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
             "coordinates": kwargs['latlng']
         },
         "properties": kwargs['properties']
@@ -40,7 +41,7 @@ def _make_geojson_feature(**kwargs):
 
 def _make_geojson_featurecollection(features_array):
     return {
-        "type": "FEATURECOLLECTION",
+        "type": "FeatureCollection",
         "features": features_array
     }
 
